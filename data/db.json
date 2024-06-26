@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Todo App",
+      "image": "/assets/todo-app.png",
+      "stack": ["react", "typescript", "chakra", "json"],
+      "codeLink": "https://github.com/andrewmartinn/todo-app"
+    },
+    {
+      "id": 2,
+      "title": "Weather App",
+      "image": "/assets/weather-app-screenshot.png",
+      "stack": ["react", "typescript", "chakra"],
+      "codeLink": "https://github.com/username/weather-app"
+    },
+    {
+      "id": 3,
+      "title": "Star Wars App",
+      "image": "/assets/swapi.png",
+      "stack": [
+        "react",
+        "typescript",
+        "tailwind",
+        "react query",
+        "react router"
+      ],
+      "codeLink": "https://github.com/andrewmartinn/starwars-api"
+    },
+    {
+      "id": 4,
+      "title": "Events App",
+      "image": "/assets/tickt.png",
+      "stack": ["next", "typescript", "tailwind", "json"],
+      "codeLink": "https://github.com/andrewmartinn/nextjs-tickt"
+    }
+  ]
+}

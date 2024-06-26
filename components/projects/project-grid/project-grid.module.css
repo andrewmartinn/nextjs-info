@@ -1,0 +1,19 @@
+.container {
+  margin: auto;
+  width: 1400px;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .projectGrid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 1rem 0;
+  }
+}

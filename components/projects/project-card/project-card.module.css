@@ -1,0 +1,38 @@
+.card {
+  width: 430px;
+  .image {
+    height: 340px;
+    width: 430px;
+    border-radius: 1rem;
+    object-fit: cover;
+  }
+
+  .title {
+    text-align: left;
+    padding: 0.5rem 0;
+  }
+
+  .cardInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .stack {
+      margin-top: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .cta {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      cursor: pointer;
+
+      .ctaText {
+        font-size: 10px;
+      }
+    }
+  }
+}
