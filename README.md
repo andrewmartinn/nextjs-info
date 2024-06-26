@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Info 
+![nextjs-info](https://github.com/andrewmartinn/nextjs-info/assets/152824513/ba9a75ff-6934-4879-b984-57a4f8560cfe)
+![nextjs-info2](https://github.com/andrewmartinn/nextjs-info/assets/152824513/c6e937d5-cf4f-452e-ac46-1708ba9af911)
+![nextjs-info3](https://github.com/andrewmartinn/nextjs-info/assets/152824513/8e324a2a-a25b-4b48-b677-ea72d96db60c)
 
-## Getting Started
+This project is a simple portfolio site built with Next.js and TypeScript, featuring multiple pages including a home page, about page, and projects page. It includes a mock REST API using JSON Server to simulate backend data interactions. CSS Modules are used for scoped styling, ensuring better maintainability and encapsulation.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Technologies Used
+
+- [Next.js](https://nextjs.org/): React framework for production
+- [React Icons](https://react-icons.github.io/react-icons/): Include popular icons in your React projects easily
+- [JSON Server](https://github.com/typicode/json-server): Mock REST API server for rapid prototyping
+- [TypeScript](https://www.typescriptlang.org/): Typed superset of JavaScript
+- CSS Modules: Scoped CSS for better maintainability
+
+
+
+## Features
+
+- Multiple Route Pages
+- Dynamic Data Fetching
+
+## Project Outcomes
+
+- **Effective Use of TypeScript**: Leveraged TypeScript for type safety and enhanced code quality.
+- **Data Fetching with JSON Server**: Implemented a mock REST API using JSON Server to simulate backend data interactions.
+- **Modular CSS**: Employed CSS Modules to maintain scoped styles, reducing the risk of style conflicts.
+- **Responsive Design**: Ensures the site is responsive and works well on mobile devices.
+  
+## Project Setup
+
+This project was bootstrapped with [Nextjs](https://nextjs.org/docs/api-reference/create-next-app).
+
+To get started you need to:
+
+- Clone the project
+- Install listed dependencies
+- Run available scripts
+
+### Install dependencies
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Run Next dev server (http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Run the JSON server (http://localhost:5000)
 
-## Learn More
+```
+npm run server
+```
 
-To learn more about Next.js, take a look at the following resources:
+### To build for production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+To deploy this project run
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+  npm run deploy
+```
