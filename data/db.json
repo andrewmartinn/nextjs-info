@@ -12,7 +12,7 @@
       "title": "Weather App",
       "image": "/assets/weather-app-screenshot.png",
       "stack": ["react", "typescript", "chakra"],
-      "codeLink": "https://github.com/username/weather-app"
+      "codeLink": "https://github.com/andrewmartinn/weather-openweather-api"
     },
     {
       "id": 3,

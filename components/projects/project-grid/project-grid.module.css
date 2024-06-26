@@ -1,7 +1,6 @@
 .container {
+  width: 100%;
   margin: auto;
-  width: 1400px;
-  padding: 0 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,11 +8,15 @@
   .projectGrid {
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
     justify-content: center;
     align-content: center;
     align-items: center;
     margin: 1rem 0;
+
+    @media (max-width: 500px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 }

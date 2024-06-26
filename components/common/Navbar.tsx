@@ -4,11 +4,10 @@ import styles from "./navbar.module.css";
 const Navbar = () => {
   return (
     <div className={styles.navbarContainer}>
-      <h2 className={styles.logo}>AM.</h2>
+      <Link href="/">
+        <h2 className={styles.logo}>AM.</h2>
+      </Link>
       <div className={styles.linkContainer}>
-        <Link href="/" className={styles.navCta}>
-          Home
-        </Link>
         <Link href="/about" className={styles.navCta}>
           About
         </Link>

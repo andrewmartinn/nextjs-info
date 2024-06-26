@@ -2,27 +2,36 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1rem;
-  padding: 0 1rem;
+  align-items: center;
   text-align: center;
-  height: 60vh;
-  min-height: 500px;
+  padding: 2rem;
+  gap: 1rem;
 
   .info h2 {
     padding: 0.5rem 0;
   }
 
   .hero {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
     @media (max-width: 500px) {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
+      .hero {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+      }
     }
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
   }
 
   .social {
     display: flex;
     justify-content: center;
+    gap: 1rem;
     align-items: center;
     padding: 0.5rem 0;
   }

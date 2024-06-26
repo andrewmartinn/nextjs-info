@@ -31,19 +31,15 @@ const HeroSection = () => {
         <Image className={styles.hero} alt="hero image" src={HeroImage} />
       </div>
       <div className={styles.info}>
-        <h1>
-          Andrew
-          <br />
-          Martin
-        </h1>
-        <h2>Frontend Engineer</h2>
+        <h1>Andrew Martin</h1>
+        <h2 className={styles.subtitle}>Frontend Engineer</h2>
         <span className={styles.social}>
           {socialLinksData.map((link) => (
-            <Link href="" key={link.id} target="_blank">
+            <Link href={link.href} key={link.id} target="_blank">
               <Image
                 src={link.icon}
                 alt={link.name}
-                width={"100"}
+                width={"50"}
                 height={"50"}
                 className={styles.icon}
               />

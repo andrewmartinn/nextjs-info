@@ -9,9 +9,13 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+html {
   background: var(--background-color);
   color: var(--text-color);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+  scroll-behavior: smooth;
 }
 
 h1,

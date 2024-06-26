@@ -1,0 +1,60 @@
+.container {
+  padding: 2rem 5rem;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 750px 400px;
+  justify-content: center;
+  align-content: center;
+  gap: 4rem;
+  padding: 2rem;
+
+  @media (max-width: 500px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+}
+
+.sectionDescription {
+  padding: 1rem 0;
+  font-size: 14px;
+}
+
+.sectionSubtitle {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
+
+  @media (max-width: 500px) {
+    align-items: center;
+  }
+}

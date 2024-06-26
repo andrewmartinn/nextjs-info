@@ -7,3 +7,12 @@
   text-align: center;
   min-height: 500px;
 }
+
+.sectionTitle {
+  font-size: 2rem;
+  margin: 1rem 0;
+
+  @media (max-width: 500px) {
+    font-size: 1.5rem;
+  }
+}
