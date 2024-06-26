@@ -17,7 +17,7 @@ This project is a simple portfolio site built with Next.js and TypeScript, featu
 
 
 ## Features
-
+- Integrated File Download (Resume)
 - Multiple Route Pages
 - Dynamic Data Fetching
 
